@@ -4,6 +4,6 @@ import { DashGateway } from './dash.gateway';
 
 @Module({
   providers: [DashGateway, DashService],
-  exports: [DashGateway, DashService],
+  exports: [DashGateway],
 })
 export class DashModule {}
